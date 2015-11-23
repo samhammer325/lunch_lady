@@ -1,6 +1,3 @@
-# User chooses a main dish
-def pass; end
-
 class Lunch_lady
 	def initialize
 
@@ -20,6 +17,7 @@ class Lunch_lady
 		]
 	end
 
+	# Choose main dish
 	def main_dish
 		while true
 			puts "Choose a number for a main dish"
